@@ -1,0 +1,214 @@
+body {
+  color: black;
+  display: flex;
+  background-color: rgb(118, 159, 172);
+  margin: 0;
+  padding: 0;
+}
+#CV {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#orga {
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+  border-right: black solid 2px;
+  background-color: rgba(26, 42, 85, 0.89);
+  color: white;
+}
+#cv2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.image {
+  border-radius: 50%;
+  margin: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#orga .presentation {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#orga .divers h1 {
+  text-align: center;
+  align-items: center;
+}
+.contact {
+  border-left: solid black 2px;
+  margin: 50px;
+  align-items: center;
+}
+.contact p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.divers .space {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+#CV2 h2 h3 {
+  align-self: center;
+  color: cornflowerblue;
+}
+#CV2 h3 {
+  margin-bottom: 0;
+}
+#CV2 h5 {
+  margin-top: 0;
+}
+.content1 .title1 {
+  margin-top: 40px;
+}
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+.parties .left {
+  margin-top: 0;
+  flex: 0 0 30%;
+  margin-right: 20px;
+}
+.parties .right {
+  flex: 0 0 70%;
+  margin-left: 32px;
+}
+.content2 .title2 {
+  margin-top: 40px;
+}
+.content2 .partie {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin-bottom: 5px;
+}
+.content2 .partie .a_gauche {
+  margin-top: 30px;
+  padding: 20px;
+  flex: 0 0 30%;
+}
+.content2 .partie .a_droite {
+  margin-top: 30px;
+
+  text-align: justify;
+  flex: 0 0 70%;
+  margin-left: -80px;
+}
+
+@media screen and (max-width: 1330px) {
+  #CV {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #orga {
+    width: 80%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-right: black solid 2px;
+    background-color: rgba(26, 42, 85, 0.89);
+    color: white;
+  }
+  #cv2 {
+    width: 20%;
+  }
+  #cv2 .content1 .content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  body {
+    color: black;
+    display: block;
+    background-color: rgb(118, 159, 172);
+    margin: 0;
+    padding: 0;
+  }
+  #CV {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #orga {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-right: black solid 2px;
+    background-color: rgba(26, 42, 85, 0.89);
+    color: white;
+  }
+  #CV2 {
+    width: 100%;
+  }
+  #cv2 .content1 .content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    color: black;
+    display: block;
+    background-color: rgb(118, 159, 172);
+    margin: 0;
+    padding: 0;
+  }
+  #CV {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #orga {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-right: black solid 2px;
+    background-color: rgba(26, 42, 85, 0.89);
+    color: white;
+  }
+  #cv2 .content1 .content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 55%;
+    padding: 0;
+    margin: 0;
+  }
+  .content2 .partie {
+    display: block;
+  }
+  .content2 .a_gauche {
+    margin-bottom: -80px;
+  }
+  .content2 .a_droite {
+    margin-left: 180px;
+    padding: 102px;
+    margin-bottom: -80px;
+  }
+}
